@@ -9,7 +9,6 @@ fun main() {
 
 //vararg não limita os numeros de paramentros
 //Padrão generics T
-/
 fun <T, J> media(vararg notas: T,abc: J): Float {
     var soma = 0f
     for (n in notas) {

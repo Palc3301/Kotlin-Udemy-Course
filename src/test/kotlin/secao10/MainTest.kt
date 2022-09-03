@@ -1,3 +1,5 @@
+package secao10
+
 import org.junit.jupiter.api.*
 import secao10.abc
 import secao10.countXO

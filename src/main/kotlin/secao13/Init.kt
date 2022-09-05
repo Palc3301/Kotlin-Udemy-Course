@@ -8,7 +8,7 @@ class Receita {
     }
 
     fun imprimReceita() {
-        if(this::instrucoes.isInitialized) {
+        if(!this::instrucoes.isInitialized) {
             instrucoes = "Lave as mãos"
         }
     }
